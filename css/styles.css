@@ -1,3 +1,35 @@
+/* =========== Common styles =========== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
 .body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -185,4 +217,11 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
