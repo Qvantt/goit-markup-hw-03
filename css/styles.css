@@ -332,7 +332,7 @@ img {
   max-width: 264px;
 }
 
-.logo-footer {
+.footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -345,6 +345,6 @@ img {
   margin-bottom: 16px;
 }
 
-.logo-white-footer {
+.footer-logo-span {
   color: #f4f4fd;
 }
